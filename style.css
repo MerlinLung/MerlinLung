@@ -1,0 +1,146 @@
+@media screen and (max-width: 520px) {
+
+    .header {
+        display: flex;
+        border-bottom: 1px solid #D9FFF5;
+        justify-content: space-between; 
+        width: 100%
+    }
+
+    .header__button-menu, .header__button-repair, .header__button-check {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        border: none;
+        background:none;
+    }
+
+    .header__logo {
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .header__button-menu {
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+
+    .header__button-repair{
+        margin-right: 26px;
+    }
+
+    .slide-menu {
+        background:none;
+        overflow-x: auto; /* Enables horizontal scrolling */
+        white-space: nowrap;
+        scrollbar-width: none;
+        -ms-overflow-style: none; 
+        width: 100%;
+    }
+
+    .slide-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .slide-menu ul li a {
+        padding: 10px;
+        display: block;
+        color: #80949F;
+        text-decoration: none;
+    }
+
+    .slide-menu ul li a:hover, .slide-menu ul li a:active {
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        border-top: none;
+    }
+
+    .tabcontent img {
+        width: 320px;
+        height: 176px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+
+    .header {
+        display: flex;
+        border-bottom: 1px solid #D9FFF5;
+        justify-content: space-between; 
+        width: 100%
+    }
+
+    .header__button-menu, .header__button-repair, .header__button-check {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        border: none;
+        background:none;
+    }
+
+    .header__logo {
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .header__button-menu {
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+
+    .header__button-repair{
+        margin-right: 26px;
+    }
+
+    .slide-menu {
+        background:none;
+        overflow-x: auto; /* Enables horizontal scrolling */
+        white-space: nowrap;
+        scrollbar-width: none;
+        -ms-overflow-style: none; 
+        width: 100%;
+    }
+
+    .slide-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .slide-menu ul li a {
+        padding: 10px;
+        display: block;
+        color: #80949F;
+        text-decoration: none;
+    }
+
+    .slide-menu ul li a:hover, .slide-menu ul li a:active {
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+    }
+
+
+    .tabcontent img {
+        width: 320px;
+        height: 176px;
+    }
+}
+
+
